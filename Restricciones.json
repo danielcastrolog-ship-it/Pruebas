@@ -1,1 +1,133 @@
-
+{
+  "naves": {
+    "BALDER": {
+      "capacidad": 1010,
+      "restricciones": [
+        "MELIMOYU",
+        "ISLA GARCIA",
+        "CALETA ESCONDIDA",
+        "CHIGUAY",
+        "PILCOMAYO",
+        "ISLA PARTIDA",
+        "CHULIN"
+      ]
+    },
+    "ULL": {
+      "capacidad": 1500,
+      "restricciones": [
+        "ISLA GARCIA",
+        "CHIVATO",
+        "ISLA PARTIDA",
+        "CHULIN"
+      ]
+    },
+    "AEGIR": {
+      "capacidad": 640,
+      "restricciones": [
+        "CHULIN",
+        "CEMENTERIO",
+        "TUTIL",
+        "LEUTEPU",
+        "PILLIHUE",
+        "TENAUN",
+        "COSTA PUCHEGUIN"
+      ]
+    },
+    "IDUN": {
+      "capacidad": 720,
+      "restricciones": [
+        "CHULIN",
+        "CEMENTERIO",
+        "TUTIL",
+        "LEUTEPU",
+        "PILLIHUE",
+        "TENAUN",
+        "COSTA PUCHEGUIN"
+      ]
+    },
+    "VALDIVIA": {
+      "capacidad": 600,
+      "restricciones": [
+        "PUNTA IGLESIA",
+        "TENAUN",
+        "MILAGRO"
+      ]
+    },
+    "BRAGI": {
+      "capacidad": 350,
+      "restricciones": [
+        "MILAGRO",
+        "COCHAMO",
+        "PUCHEGUIN CHICO"
+      ]
+    },
+    "ROCUANT": {
+      "capacidad": 206,
+      "restricciones": [
+        "MILAGRO",
+        "COCHAMO",
+        "LLEUNA",
+        "PERHUE",
+        "LAMAHUE"
+      ]
+    },
+    "BALLENA": {
+      "capacidad": 206,
+      "restricciones": [
+        "MILAGRO",
+        "COCHAMO",
+        "LLEUNA",
+        "PERHUE",
+        "LAMAHUE"
+      ]
+    },
+    "ATACAMA": {
+      "capacidad": 210,
+      "restricciones": [
+        "MILAGRO",
+        "COCHAMO",
+        "LLEUNA",
+        "PUNTA IGLESIA",
+        "PERHUE",
+        "LAMAHUE"
+      ]
+    },
+    "BALLENITA": {
+      "capacidad": 65,
+      "restricciones": [
+        "PERHUE",
+        "LLEUNA",
+        "LAMAHUE"
+      ]
+    }
+  },
+  "condicionales": {
+    "MILAGRO": {
+      "naves": [
+        "ATACAMA",
+        "BALLENA",
+        "ROCUANT"
+      ],
+      "observacion": "Centro debe prestar lancha para ingreso y debe haber buenas condiciones meteorológicas"
+    },
+    "PUNTA_IGLESIAS": {
+      "naves": [
+        "THOR",
+        "JORD",
+        "VALDIVIA",
+        "AEGIR",
+        "IDUN"
+      ],
+      "observacion": "Fuerte corriente en el área, compleja salida del centro"
+    },
+    "CHULIN": {
+      "naves": [
+        "ATACAMA",
+        "BALLENA",
+        "ROCUANT",
+        "THOR"
+      ],
+      "observacion": "Descarga solo por la parte media del centro"
+    }
+  }
+}
